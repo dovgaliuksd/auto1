@@ -164,3 +164,6 @@ git diff --staged
 ```
 
 #### 12. Отмена изменений в файлах
+```bash
+git checkout index.html
+```
