@@ -166,6 +166,7 @@ git diff --staged
 #### 12. Отмена изменений в файлах
 ```bash
 git checkout index.html
+<<<<<<< HEAD
 ```
 
 #### 13. Редактирование информации о коммите 
@@ -182,4 +183,6 @@ git reseft --soft HEAD\^
 Отмена последнего коммита и всех изменений
 ```bash
 git reseft --hard HEAD\^ 
+=======
+>>>>>>> 5ad572f (update readme.md)
 ```
