@@ -167,3 +167,19 @@ git diff --staged
 ```bash
 git checkout index.html
 ```
+
+#### 13. Редактирование информации о коммите 
+```bash
+ git commit --amend -m "..."
+```
+
+#### 14. Отмена коммитов
+
+Отменим последний коммит, но оставим изменения в нем в Staging area
+```bash
+git reseft --soft HEAD\^ 
+```
+Отмена последнего коммита и всех изменений
+```bash
+git reseft --hard HEAD\^ 
+```
