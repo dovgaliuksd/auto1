@@ -10,3 +10,18 @@ body {
 .page {
     flex: 1;
 }
+ul {
+    list-style: none;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+}
